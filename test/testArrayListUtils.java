@@ -13,4 +13,15 @@ public class testArrayListUtils {
         myarr.add(4);
         assertEquals(mean(myarr), 2, "sum result should be 2");
     }
+
+public class testArrayListUtils {
+    @Test
+    public void testSum(){
+        ArrayList <Integer> myarr = new ArrayList<>();
+        myarr.add(0);
+        myarr.add(1);
+        myarr.add(2);
+        myarr.add(3);
+        assertEquals(sum(myarr), 6, "sum result should be 6");
+    }
 }
