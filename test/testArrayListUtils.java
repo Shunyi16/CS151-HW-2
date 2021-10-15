@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import static ArrayList.ArrayListUtils.mean;
+import static ArrayList.ArrayListUtils.sum;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class testArrayListUtils {
@@ -14,7 +15,6 @@ public class testArrayListUtils {
         assertEquals(mean(myarr), 2, "sum result should be 2");
     }
 
-public class testArrayListUtils {
     @Test
     public void testSum(){
         ArrayList <Integer> myarr = new ArrayList<>();
