@@ -13,7 +13,11 @@ public class ArrayListUtils {
      */
     public static int sum(ArrayList<Integer> arr) {
         // TODO: implement this method on a separate branch. Should return sum of all elements in the array list
-        return 0;
+        int sum = 0;
+        for(int i = 0; i < arr.size(); i++){
+            sum += arr.get(i);
+        }
+        return sum;
     }
 
     /**
